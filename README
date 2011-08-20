@@ -1,0 +1,12 @@
+This is a general wrapper that performs a few statistical analysis tests on tab-delimited files with a header. It is meant to run on unix environments.
+
+The statistical tests currently performed are:
+-PCA
+-Kmeans Clustering
+-Hierarchical Clustering
+
+There are additional scripts in the package which aren't used by default because they require special R packages to be downloaded.
+
+The plots are output into PDF files in the CWD. The warnings and interim data structures are printed to STDOUT.
+
+-Nikhil
